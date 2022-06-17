@@ -18,7 +18,7 @@ Loading the driver works the same way as LAVDRIVER. From a DCL script:
 $ Run SYS$SYSTEM:SYSMAN
 IO Load LAXDRIVER
 IO Connect LAX0 /NoAdapter/Driver=LAXDRIVER
-$exit
+exit
 ```
 
 Be sure to specify the path to LAXDRIVER if you haven't copied it to
